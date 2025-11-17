@@ -5,26 +5,20 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-2 2.5 -6"  src="sand_texture.jpeg" width="2" height="5" depth="2"></a-box>
-      <a-box position="2 2.5 -6"  src="sand_texture.jpeg" width="2" height="5" depth="2"></a-box>
-      <a-box position="2 2.5 -10"  src="sand_texture.jpeg" width="2" height="5" depth="2"></a-box>
-      <a-box position="-2 2.5 -10"  src="sand_texture.jpeg" width="2" height="5" depth="2"></a-box>
-      <a-box position="0 2 -8"  src="sand_texture.jpeg" width="4" height="4" depth="4"></a-box>
+      <a-assets>
+        <a-asset-item id="tree" src="assets/60ca38b3-16e4-42f5-8e4e-f6e76f2992b1_Lowpoly_tree_sample.obj">
+      </a-assets>
 
-      <a-cone position="-2 6 -6" src="sand_texture.jpeg" radius-bottom="1.5" height="2"></a-cone>
-      <a-cone position="2 6 -6" src="sand_texture.jpeg" radius-bottom="1.5" height="2"></a-cone>
-      <a-cone position="2 6 -10" src="sand_texture.jpeg" radius-bottom="1.5" height="2"></a-cone>
-      <a-cone position="-2 6 -10" src="sand_texture.jpeg" radius-bottom="1.5" height="2"></a-cone>
-
-      <a-cylinder position="3 5 -3.5" color="#a9a9a9" radius=".25" height="10"></a-cylinder>
-      <a-cone position="3 10.25 -3.5" color="#FF0000" radius-bottom="4.5" height="2"></a-cone>
-
-      <a-sphere position="0 1.25 -3.5" radius="1" src="beach_ball_texture.jpeg"></a-sphere>
+      <a-obj-model sr="#tree" position="2.6 0-7" scale=".5.5 .5"></a-obj-model>
+      <a-obj-model src="#tree" position="-2.6 0 -7" scale=".5 •5 •5"></a-obj-model>
       
-
-      
-
-      <a-sky src="Venetian Watchtower Sunset Panorama.jpg"></a-sky>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
     </a-scene>
   </body>
 </html>
+
+
