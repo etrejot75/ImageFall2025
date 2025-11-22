@@ -17,10 +17,19 @@
       <!-- Load 3D objects in a-assets as an "a-asset-item" -->
       <a-assets>
           <a-asset-item id="tree" src="assets/lowpoly_trees.obj"></a-asset-item>
-          <a-asset-item id="bulbasaur" src="assets/001 - Bulbasaur.obj"></a-asset-item>
-          <a-asset-item id="pikachu" src="assets/025 - Pikachu.obj"></a-asset-item>
-          <a-asset-item id="eevee" src="assets/133 - Eevee.obj"></a-asset-item>
-          <a-asset-item id="center" src="assets/Pokemon Center 3D Model.glb"></a-asset-item>
+          <a-asset-item id="bulbasaur" src="assets/Bulbasaur 3D Model - Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="pikachu" src="assets/Pikachu 3D Model from Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="eevee" src="assets/Eevee 3D Model from Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="charmander" src="assets/Charmander Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="greninja" src="assets/Greninja Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="slowpoke" src="assets/Slowpoke Voxel Art - Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="snorlax" src="assets/Snorlax Pokemon Quest.glb"></a-asset-item>
+          <a-asset-item id="lapras_pool" src="assets/Pokemon Quest Lapras Pool.glb"></a-asset-item>
+          <a-asset-item id="grass" src="assets/Grass Model 01.glb"></a-asset-item>
+          <a-asset-item id="hills" src="assets/Minecraft 3D Model.glb"></a-asset-item>
+          <a-asset-item id="player" src="assets/Minecraft Player 3D Model.glb"></a-asset-item>
+
+
 
 
       </a-assets>
@@ -39,10 +48,12 @@
       <a-marker preset="kanji">
 
         <!-- Example of adding a 3D object in this marker -->
-        <a-obj-model src="#bulbasaur" position="1.5 0 -1.5" scale=".3 .3 .3" src="001_-_Bulbasaur.png"></a-obj-model>
-        <a-obj-model src="#pikachu" position="-1.5 0 -1.5" scale=".3 .3 .3" src="025_-_Pikachu.png"></a-obj-model>
-        <a-obj-model src="#eevee" position="0 0 -1.5" scale=".3 .3 .3" src="133_-_Eevee.png"></a-obj-model>
+        <a-entity gltf-model="#bulbasaur" position="1.5 0 -1.5"></a-entity>
+        <a-entity gltf-model="#pikachu" position="-1.5 0 -1.5"></a-entity>
+        <a-entity gltf-model="#eevee" position="0 0 -1.5"></a-entity>
+
         <a-obj-model src="#center" position="0 0 -1.5" scale=".3 .3 .3"></a-obj-model>
+        <a-entity gltf-model="#center" position="0 -2 -1.5"></a-entity>
 
 
 
