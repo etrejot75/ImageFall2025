@@ -9,6 +9,8 @@
     
     <!--  STEP TWO: ADD THE UPDATED AR.JS SCRIPT  -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    
   
   </head>
   <body>
@@ -31,10 +33,6 @@
           <a-asset-item id="center" src="assets/Pokemon Center 3D Model.glb"></a-asset-item>
 
 
-
-
-
-
       </a-assets>
 
       <!--  REMOVE OR COMMENT OUT THE SKY: -->
@@ -52,11 +50,22 @@
 
         <!-- Example of adding a 3D object in this marker -->
         <a-entity gltf-model="#bulbasaur" position="1.5 0 0" scale="0.1 0.1 0.1"></a-entity>
-        <a-entity gltf-model="#pikachu" position="-1.5 0 0" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity gltf-model="#pikachu" position="-.5 .2 -.5" scale="0.1 0.1 0.1"></a-entity>
         <a-entity gltf-model="#eevee" position="0 0 0" scale="0.1 0.1 0.1"></a-entity>
         <a-entity gltf-model="#center" position="0 0 0" scale="2 2 2"></a-entity>
         
-        <a-entity gltf-model="#player" position="0.2 0.4 0" scale="5 5 5" src="Lisprout Minecraft Skin.png"></a-entity>
+        <a-entity gltf-model="#player" position="0.2 0.4 0" scale="5 5 5" material="src: #character_skin"></a-entity>
+        <a-entity gltf-model="#player" position="0.2 0.4 -0.8" scale="5 5 5"></a-entity>
+        <a-entity gltf-model="#snorlax" position="1.5 -1.9 0.4" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity gltf-model="#charmander" position="-1.7 0.05 0.5" scale="0.1 0.1 0.1" rotation="0 -90 0"></a-entity>
+        <a-entity gltf-model="#slowpoke" position="-1.1 0.05 -.5" scale="0.005 0.005 0.005" rotation="0 0 0"></a-entity>
+        <a-entity gltf-model="#greninja" position="1.6 0.05 -.7" scale="0.12 0.12 0.12" rotation="0 0 0"></a-entity>
+        
+
+
+
+
+
 
 
         
