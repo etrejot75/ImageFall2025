@@ -27,7 +27,10 @@
           <a-asset-item id="lapras_pool" src="assets/Pokemon Quest Lapras Pool.glb"></a-asset-item>
           <a-asset-item id="grass" src="assets/Grass Model 01.glb"></a-asset-item>
           <a-asset-item id="hills" src="assets/Minecraft 3D Model.glb"></a-asset-item>
-          <a-asset-item id="player" src="assets/Minecraft Player 3D Model.glb"></a-asset-item>
+          <a-asset-item id="player" src="assets/Minecraft Rig by RunningBoy106.glb"></a-asset-item>
+          <a-asset-item id="center" src="assets/Pokemon Center 3D Model.glb"></a-asset-item>
+
+
 
 
 
@@ -48,12 +51,18 @@
       <a-marker preset="kanji">
 
         <!-- Example of adding a 3D object in this marker -->
-        <a-entity gltf-model="#bulbasaur" position="1.5 0 -1.5"></a-entity>
-        <a-entity gltf-model="#pikachu" position="-1.5 0 -1.5"></a-entity>
-        <a-entity gltf-model="#eevee" position="0 0 -1.5"></a-entity>
+        <a-entity gltf-model="#bulbasaur" position="1.5 0 0" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity gltf-model="#pikachu" position="-1.5 0 0" scale="0.1 0.1 0.1"></a-entity>
+        <a-entity gltf-model="#eevee" position="0 0 0" scale="0.1 0.1 0.1"></a-entity>
+        
+        <a-entity gltf-model="#player" position="0 0 0" scale="0.3 0.3 0.3"></a-entity>
 
-        <a-obj-model src="#center" position="0 0 -1.5" scale=".3 .3 .3"></a-obj-model>
-        <a-entity gltf-model="#center" position="0 -2 -1.5"></a-entity>
+
+        <a-entity gltf-model="#center" position="0 0 0" scale="2 2 2"></a-entity>
+        
+
+
+       
 
 
 
